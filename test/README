@@ -1,0 +1,9 @@
+"testfile.c":
+
+Used to create test files for MemSim.  Pass the number of memory items you wish to generate as the first command line argument, pass the max size of each memory item as the second command line argument.
+
+Ex.
+	gcc -o test testfile.c
+	./test 50 20 
+
+	This produces a file called test.txt that contains 50 memory items, each with a max size of 20 memory units (B, mB etc...)
